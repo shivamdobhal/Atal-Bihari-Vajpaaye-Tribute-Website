@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(34, 28, 22, 0.703) 50%, rgb(8, 6, 4) 100%);
+}
+
+.head{
+    color: rgb(218, 238, 242);
+    text-align:center;
+    text-decoration:overline;
+    font-size: xx-large;
+    text-shadow: 5px 5px 6px rgb(53, 185, 183);
+   
+}
+
+.image1{
+   border-radius: 5px;
+   height: 35%;
+   width:35%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border:5px solid rgb(31, 36, 36);
+
+}
+.about{
+    color:aliceblue;
+    font-size:x-large;
+    border:5px solid rgba(247, 241, 241, 0.525);
+    background-color: rgb(43, 44, 44);
+}
+
+.aboutinside{
+    border:5px solid rgb(231, 101, 101);
+    margin:50px;
+    font-size:18px;
+    text-align:center;
+    border-radius:50px;
+    background-color: antiquewhite;
+    color: rgb(10, 10, 10);
+    font-family: cursive; 
+}
+
+.tribute{ 
+    border-radius:10px;
+    font-size:xx-large;    
+}
+
+.insidetribute{
+   background-color: rgb(27, 25, 25);
+    color:rgb(210, 254, 251);
+}
+
+
+.personal{
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 40px;
+}
+
+
+.myidea{
+    color:rgb(66, 78, 78);
+    border:30px  solid rgb(247, 97, 97);
+    margin-left:300px; 
+    margin-right:300px; 
+    padding:1px 10px 1px 25px;
+    background-color:rgb(242, 219, 192);
+    border-radius:90px;
+  
+}
+
+.myself{
+   
+    color:rgb(11, 5, 5);
+     background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,150,29,1) 50%, rgb(237, 178, 96) 100%); 
+     text-align: right;
+     border-radius: 100px;
+     border-style:dashed;
+     padding:10px 10px 50px 10px ;
+     margin:40px 50px 20px 50px;
+     font-size: x-large;
+}
+
+.bottomimg{
+    height:300px;
+    width:300px;
+    border-radius: 70%; 
+    border:3px solid black;
+    position: absolute;  
+  left: 100px;
+    
+}
+
+nav{
+    display:flex;
+    
+    gap:200px;
+    margin-left: 350px;
+   
+}
+
+.linkedin{
+    background: url(linkedinnew.jpg);
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  
+  /* margin-left:100px; */
+  /* margin: 1px; */
+}
+
+.github{
+    background: url(github.jpg);
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* background-repeat: no-repeat; */
+  
+  
+}
+
+.leetcode{
+    background: url(leetcode.jpg);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  /* background-repeat: no-repeat; */
+ 
+  
+}
