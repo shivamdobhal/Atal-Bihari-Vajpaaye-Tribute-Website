@@ -91,8 +91,7 @@ body{
 }
 
 nav{
-    display:flex;
-    
+    display:flex;    
     gap:200px;
     margin-left: 350px;
    
@@ -102,19 +101,18 @@ nav{
     background: url(linkedinnew.jpg);
     width: 200px;
   height: 200px;
-/*   border-radius: 20%; */
+  border-radius: 50%;
   background-repeat: no-repeat;
   
-  /* margin-left:100px; */
-  /* margin: 1px; */
+
 }
 
 .github{
     background: url(github.jpg);
     width: 200px;
   height: 200px;
-/*   border-radius: 20%; */
-  /* background-repeat: no-repeat; */
+  border-radius: 50%;
+
   
   
 }
@@ -123,8 +121,5 @@ nav{
     background: url(leetcode.jpg);
     height: 200px;
     width: 200px;
-/*     border-radius: 20%; */
-  /* background-repeat: no-repeat; */
- 
-  
+    border-radius: 50%;
 }
